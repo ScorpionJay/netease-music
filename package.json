@@ -1,0 +1,24 @@
+{
+  "name": "netease-music",
+  "version": "0.0.1",
+  "description": "netease music",
+  "author": "jay",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "dependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "cheerio": "^1.0.0-rc.2",
+    "crypto-js": "^3.1.9-1",
+    "koa": "^2.3.0",
+    "koa-route": "^3.2.0",
+    "koa-router": "^7.2.1",
+    "mongoose": "^4.13.2",
+    "node-schedule": "^1.2.5",
+    "request": "^2.83.0"
+  }
+}
